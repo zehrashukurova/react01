@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.chipsList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    width: 200px;
+    border-radius: 6px;
+    background-color: #494848;
+    margin-top: 200px;
+    
+}
+.chipsList p{
+    font-size: 24px;
+}
+.chipsList button{
+width: 170px;
+font-size: 18px;
+background-color: rgb(223, 143, 143);
+border: none;
+border-radius: 4px;
+padding: 8px;
+
+}
+.chipsList button:hover{
+    background-color: rgb(167, 19, 19);
+}
+.chipsList a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+.chipsList a:hover{
+    text-decoration: underline;
+}
+.cipsiler{
+    /* width: 100vw; 
+    height: 100vh; */
+    position: relative;
+     display: flex;
+}

@@ -1,0 +1,41 @@
+.home{
+    position: relative;
+    background-image: url('../../image/VendingMachine.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh
+}
+
+.cards{
+    position: absolute;
+    display:flex;
+    flex-direction: row;
+    gap: 450px;
+     margin-top: 200px;
+     color: #fff;
+     font-size: 26px;
+}
+.card{
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.445);
+    padding: 30px;
+    border-radius: 10px;
+}
+.intro{
+    margin-left: 40px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    
+}
+.list a{
+    color: #fff;
+    text-decoration: none;
+}
+.list a:hover{
+    text-decoration: underline;
+}

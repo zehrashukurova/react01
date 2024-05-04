@@ -1,0 +1,31 @@
+.sardinesCard{
+    position: absolute;
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+
+}
+.sardines{
+    display: flex;
+    background-image: url('../../image/sardines.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.sardinesCard a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+
+}
+.sardinesCard a:hover{
+    text-decoration: underline;
+}

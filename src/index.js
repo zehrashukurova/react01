@@ -2,12 +2,41 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './reportWebVitals';                          
+import Home from './pages/home';
+import {
+  createBrowserRouter,
+  RouterProvider
+} from "react-router-dom";
+import Sardines from './pages/sardines';
+import Soda from './pages/soda';
+import Chips from './pages/chips';
+
+
+const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home/>,
+    },
+  {
+    path: "sardines",
+element: <Sardines/>
+  },
+  {
+    path: "chips",
+element: <Chips/>
+  },
+  {
+    path: "soda",
+element: <Soda/>
+  }
+]);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
